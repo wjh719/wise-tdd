@@ -56,14 +56,11 @@ public class FirstTest {
         TestApp app = new TestApp();
         app.run();
 
-        // r -> 실패하는 테스트 케이스
+        // 테스트 코드 작성 어려움.
+        // assertJ 사용법을 잘 모름.
+
         assertThat(out.toString())
-                .contains("== 명언 앱 ==")
-                .contains("명언앱을 종료합니다.");
-
-
-
-        assertThat(out.toString()).contains("명언앱을 종료합니다.");
+                .containsSubsequence("== 명언 앱 ==", "명언앱을 종료합니다.");
 
         // 출력값을 체크
     }
