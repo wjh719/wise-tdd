@@ -58,7 +58,7 @@ public class FirstTest {
 
         // r -> 실패하는 테스트 케이스
         assertThat(out.toString())
-                .contains("==명언 앱==")
+                .contains("== 명언 앱 ==")
                 .contains("명언앱을 종료합니다.");
 
 
