@@ -36,7 +36,5 @@ public class Main {
         String val3 = scan.nextLine();
         System.out.println(val3);
 
-        App app = new App();
-        app.run();
     }
 }

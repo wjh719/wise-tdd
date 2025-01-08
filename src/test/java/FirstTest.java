@@ -16,8 +16,8 @@ public class FirstTest {
 
     @Test
     void t2() {
-        App app = new App();
-        app.run();
+//        App app = new App();
+//        app.run();
 
 
 //        assertThat(result).isEqualTo("aaa");
