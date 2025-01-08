@@ -4,6 +4,7 @@ public class App {
         System.out.println("== 명언 앱 ==");
         System.out.println("명령 ) ");
         System.out.println("명령 ) ");
+        System.out.println("명령 ) ");
 
 
         System.out.println("명언 : ");
